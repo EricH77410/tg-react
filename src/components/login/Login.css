@@ -1,0 +1,25 @@
+.card-signin {
+  border-radius: 1rem;
+  box-shadow: 0 0.5rem 1rem 0 rgba(0,0,0 0.1);
+}
+
+.login-password {
+  margin-top: 1rem;
+}
+
+.login-background {
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(73,165,191,1)),to(rgba(147,206,222,0.2)));
+     background-image: -o-linear-gradient(top, rgba(73,165,191,1) 0%,rgba(147,206,222,0.2) 100%);
+     background-image: linear-gradient(to bottom, rgba(73,165,191,1) 0%,rgba(147,206,222,0.2) 100%);
+  height: 100vh;
+}
+
+.login-action {
+  margin-top: 2rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.card-title {
+  margin-bottom: 2rem;
+}
