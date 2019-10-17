@@ -4,6 +4,13 @@ import Arcade from '../../schema_dentaire/Arcade'
 
 const SaisieActe = (props) => {
   return (
+    <>
+    <div className="row">
+      <div className="col-9 offset-1">
+      HEADER
+      </div>
+      
+    </div>
     <div className="row">
       <div className="col-1">
         NAV
@@ -16,6 +23,7 @@ const SaisieActe = (props) => {
       </div>      
       
     </div>
+    </>
   )
 }
 

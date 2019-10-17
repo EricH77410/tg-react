@@ -6,16 +6,14 @@
   padding: 1rem;
   box-shadow: 0 1.5rem 2rem rgba(0, 0, 0, 0.2);
   background-image: url('/assets/img/Violet_DI_1.png');
-  background-size: 100% 100%;
+  background-size: cover;
   background-position: top;
   background-repeat: no-repeat;
-  min-height: 715px;
+  /* min-height: 715px; */
   position: relative;
 }
 
 .arcade__haut {    
-  /* display: flex;
-  justify-content: center; */
   grid-column: 1;
   display: grid;
   grid-template-columns: repeat(16,1fr);
@@ -31,8 +29,6 @@ img {
 }
 
 .haut-v, .haut-o, .bas-o, .bas-v {
-/*   display: grid;
-  grid-template-columns: 1fr 1fr; */
   display: flex;
   flex-wrap: nowrap;
 }
