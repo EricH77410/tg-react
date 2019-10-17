@@ -1,0 +1,279 @@
+
+.arcade {
+  width: 100%;
+  margin: 0 auto;
+  border: 1px solid #777;
+  padding: 1rem;
+  box-shadow: 0 1.5rem 2rem rgba(0, 0, 0, 0.2);
+  background-image: url('/assets/img/Violet_DI_1.png');
+  background-size: 100% 100%;
+  background-position: top;
+  background-repeat: no-repeat;
+  min-height: 715px;
+  position: relative;
+}
+
+.arcade__haut {    
+  /* display: flex;
+  justify-content: center; */
+  grid-column: 1;
+  display: grid;
+  grid-template-columns: repeat(16,1fr);
+  position: absolute;
+  top: 22%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+}
+
+img {
+  width: 100%;
+}
+
+.haut-v, .haut-o, .bas-o, .bas-v {
+/*   display: grid;
+  grid-template-columns: 1fr 1fr; */
+  display: flex;
+  flex-wrap: nowrap;
+}
+
+.secteur1__v {
+  display: grid;
+  grid-template-columns: repeat(8,1fr);
+  grid-template-areas: "v18 v17 v16 v15 v14 v13 v12 v11";
+  align-items: end;
+}
+.secteur2__v {
+  display: grid;
+  grid-template-columns: repeat(8,1fr);
+  grid-template-areas: "v21 v22 v23 v24 v25 v26 v27 v28";
+  align-items: end;
+}
+.secteur1__o {
+  display: grid;
+  grid-template-columns: repeat(8,1fr);
+  grid-template-areas: "o18 o17 o16 o15 o14 o13 o12 o11";
+}
+.secteur2__o {
+  display: grid;
+  grid-template-columns: repeat(8,1fr);
+  grid-template-areas: "o21 o22 o23 o24 o25 o26 o27 o28";
+}
+
+.secteur3__o{
+  display: grid;
+  grid-template-columns: repeat(8,1fr);
+  grid-template-areas: "o38 o37 o36 o35 o34 o33 o32 o31";
+}
+.secteur4__o {
+  display: grid;
+  grid-template-columns: repeat(8,1fr);
+  grid-template-areas: "o41 o42 o43 o44 o45 o46 o47 o48";
+}
+.secteur3__v {
+  display: grid;
+  grid-template-columns: repeat(8,1fr);
+  grid-template-areas: "v31 v32 v33 v34 v35 v36 v37 v38";
+}
+.secteur4__v {
+  display: grid;
+  grid-template-columns: repeat(8,1fr);
+  grid-template-areas: "v48 v47 v46 v45 v44 v43 v42 v41";
+}
+
+.v18 {
+  grid-area: v18;
+}
+.v17 {
+  grid-area: v17;
+}
+.v16 {
+  grid-area: v16;
+}
+.v15 {
+  grid-area: v15;
+}
+.v14 {
+  grid-area: v14;
+}
+.v13 {
+  grid-area: v13;
+}
+.v12 {
+  grid-area: v12;
+}
+.v11 {
+  grid-area: v11;
+}
+.v21 {
+  grid-area: v21;
+}
+.v22 {
+  grid-area: v22;
+}
+.v23 {
+  grid-area: v23;
+}
+.v24 {
+  grid-area: v24;
+}
+.v25 {
+  grid-area: v25;
+}
+.v26 {
+  grid-area: v26;
+}
+.v27 {
+  grid-area: v27;
+}
+.v28 {
+  grid-area: v28;
+}
+
+.o11 {
+  grid-area: o11;
+}
+.o12 {
+  grid-area: o12;
+}
+.o13 {
+  grid-area: o13;
+}
+.o14 {
+  grid-area: o14;
+}
+.o15 {
+  grid-area: o15;
+}
+.o16 {
+  grid-area: o16;
+}
+.o17 {
+  grid-area: o17;
+}
+.o18 {
+  grid-area: o18;
+}
+.o21 {
+  grid-area: o21;
+}
+.o22 {
+  grid-area: o22;
+}
+.o23 {
+  grid-area: o23;
+}
+.o24 {
+  grid-area: o24;
+}
+.o25 {
+  grid-area: o25;
+}
+.o26 {
+  grid-area: o26;
+}
+.o27 {
+  grid-area: o27;
+}
+.o28 {
+  grid-area: o28;
+}
+
+.v38 {
+  grid-area: v38;
+}
+.v37 {
+  grid-area: v37;
+}
+.v36 {
+  grid-area: v36;
+}
+.v35 {
+  grid-area: v35;
+}
+.v34 {
+  grid-area: v34;
+}
+.v33 {
+  grid-area: v33;
+}
+.v32 {
+  grid-area: v32;
+}
+.v31 {
+  grid-area: v31;
+}
+
+.v48 {
+  grid-area: v48;
+}
+.v47 {
+  grid-area: v47;
+}
+.v46 {
+  grid-area: v46;
+}
+.v45 {
+  grid-area: v45;
+}
+.v44 {
+  grid-area: v44;
+}
+.v43 {
+  grid-area: v43;
+}
+.v42 {
+  grid-area: v42;
+}
+.v41 {
+  grid-area: v41;
+}
+.o31 {
+  grid-area: o31;
+}
+.o32 {
+  grid-area: o32;
+}
+.o33 {
+  grid-area: o33;
+}
+.o34 {
+  grid-area: o34;
+}
+.o35 {
+  grid-area: o35;
+}
+.o36 {
+  grid-area: o36;
+}
+.o37 {
+  grid-area: o37;
+}
+.o38 {
+  grid-area: o38;
+}
+
+.o41 {
+  grid-area: o41;
+}
+.o42 {
+  grid-area: o42;
+}
+.o43 {
+  grid-area: o43;
+}
+.o44 {
+  grid-area: o44;
+}
+.o45 {
+  grid-area: o45;
+}
+.o46 {
+  grid-area: o46;
+}
+.o47 {
+  grid-area: o47;
+}
+.o48 {
+  grid-area: o48;
+}

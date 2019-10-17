@@ -1,0 +1,89 @@
+
+.arcade {
+  width: 100%;
+  margin: 0 auto;
+  border: 1px solid #777;
+  box-shadow: 0 1.5rem 2rem rgba(0, 0, 0, 0.2);
+  background-image: url('/assets/img/Violet_DI_1.png');
+  background-size: 100% 100%;
+  background-position: top;
+  background-repeat: no-repeat;
+  /* height: 95vh; */
+  min-height: 715px;
+  position: relative;
+}
+
+.arcade__haut {    
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  top: 22%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+}
+
+.secteur1__v {
+  display: flex;
+  flex-direction: row-reverse;
+  width: 50%;
+}
+
+.secteur1__o{
+  display: flex;
+  flex-direction: row-reverse;
+  position: absolute;
+  top: 75%;
+  right:50%;
+}
+
+.secteur2__v {
+  display: flex;
+  width: 50%;
+}
+
+.secteur2__o {
+  display: flex;
+  position: absolute;
+  /* top: 110%; */
+  top: 72%;
+  left: 50%;
+}
+
+.arcade__bas{
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: center;
+  position: absolute;
+  top: 78%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+}
+
+.secteur3__v {
+  display: flex;
+  width: 50%;
+}
+
+.secteur3__o {
+  display: flex;
+  position: absolute;
+  /* top:-88px; */
+  top: -25%;
+  left:50%;
+}
+
+.secteur4__v {
+  display: flex;
+  flex-direction: row-reverse;
+  width: 50%;
+}
+
+.secteur4__o {
+  display: flex;
+  flex-direction: row-reverse;
+  position: absolute;
+  top:-25%;
+  right:50%;
+}
