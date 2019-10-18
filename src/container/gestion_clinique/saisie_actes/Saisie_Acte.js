@@ -20,9 +20,10 @@ const SaisieActe = (props) => {
       </div>
       <div className="col-2">
         Palette
-      </div>      
+      </div>  
       
     </div>
+    <div>LISTE ACTES</div>
     </>
   )
 }

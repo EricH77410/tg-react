@@ -13,17 +13,6 @@
   position: relative;
 }
 
-.arcade__haut {    
-  grid-column: 1;
-  display: grid;
-  grid-template-columns: repeat(16,1fr);
-  position: absolute;
-  top: 22%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  width: 100%;
-}
-
 img {
   width: 100%;
 }
@@ -31,6 +20,10 @@ img {
 .haut-v, .haut-o, .bas-o, .bas-v {
   display: flex;
   flex-wrap: nowrap;
+}
+
+.haut-v, .haut-o{
+  margin-top: 2%;
 }
 
 .secteur1__v {

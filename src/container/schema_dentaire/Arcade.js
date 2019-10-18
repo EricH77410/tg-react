@@ -72,9 +72,9 @@ class Arcade extends Component {
                 { this.getDentSecteur(3,'v') }
                 
               </div>
-              <div className="select-face">
+{/*               <div className="select-face">
                 <button onClick={()=>this.setState({showOclu: !this.state.showOclu})}>Oclu</button>
-              </div>
+              </div> */}
             </div>
         )
     }
