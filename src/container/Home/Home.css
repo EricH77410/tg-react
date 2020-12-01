@@ -1,0 +1,79 @@
+.home {
+  background: #333;
+  color: #fff;
+}
+
+.home__container {
+  height: 100vh;
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  grid-template-rows: repeat(5, 1fr);
+  grid-column-gap: 5px;
+  grid-row-gap: 5px;
+  text-align: center;
+}
+
+.home__dashboard {
+  grid-area: 1 / 1 / 7 / 4;
+  background: #333;
+  border: 1px solid #fff;
+  height: 100%;
+}
+
+.home h1 {
+  text-shadow: 2px 2px 2px #333;
+}
+
+.home a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.home__stat {
+  grid-area: 1 / 4 / 2 / 6;
+  height: 100%;
+  background-color: orange;
+}
+
+.home__compta {
+  grid-area: 2 / 4 / 3 / 6;
+  height: 100%;
+  background-color: orchid;
+}
+
+.home__param {
+  grid-area: 4 / 4 / 5 / 6;
+  height: 100%;
+  background-color: rebeccapurple;
+}
+
+.home__agenda {
+  grid-area: 3 / 5 / 4 / 7;
+  height: 100%;
+  background-color: steelblue;
+}
+
+.home__traca {
+  grid-area: 1 / 6 / 2 / 8;
+  height: 100%;
+  background-color: yellowgreen;
+}
+
+
+.home__gestion {
+  grid-area: 2 / 6 / 3 / 8;
+  height: 100%;
+  background-color: rosybrown;
+}
+
+.home__xray {
+  grid-area: 4 / 6 / 5 / 8;
+  height: 100%;
+  background-color: salmon;
+}
+
+.home__teletrans {
+  grid-area: 5 / 4 / 6 / 8;
+  background-color: greenyellow;
+  height: 100%;
+}
