@@ -1,0 +1,13 @@
+.dashboard__item {
+  font-size: 3rem;
+  width: 50%;
+  margin: 0 auto;
+  text-align: left;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.dashboard__item span {
+  width: 5rem;
+}

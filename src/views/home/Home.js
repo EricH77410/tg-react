@@ -1,9 +1,9 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
-import Dashboard from '../dashboard/Dashboard'
+import Dashboard from '../../container/dashboard/Dashboard'
 import './Home.css'
 
-const Home = (props) => {
+const Home = () => {
   return (
     <div className="home">
       <div className="home__container">
@@ -49,7 +49,7 @@ const Home = (props) => {
         </div>
         <div className="home__teletrans d-flex justify-content-center align-items-center">
           <Link to="/teletrans">
-            <h1>TELETRANSMISSON</h1>
+            <h1>TELETRANSMISSION</h1>
           </Link>
         </div>
       </div>
